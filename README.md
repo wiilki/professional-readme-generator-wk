@@ -1,8 +1,8 @@
-# test-#1
+# test-readme-2
 
 ## Description
 
-This is the first test after adding a table of contents
+This is test 1 after adding questions section
 
 ## Table of Contents
 
@@ -18,16 +18,21 @@ Follow instructions
 
 ## Usage
 
-Follow video
-
-## Contributing
-
-Email someone
-
-## Tests
-
-This is test number 1
+Watch video
 
 ## License
 
-License 1
+License 2
+
+## Contributing
+
+Email me
+
+## Tests
+
+This is test #2
+
+## Questions
+
+Have questions? [Email Me!](mailto: thewillkim@icloud.com)
+

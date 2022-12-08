@@ -37,6 +37,10 @@ ${installation}
 
 ${usage}
 
+## License
+
+${license}
+
 ## Contributing
 
 ${contributing}
@@ -45,9 +49,11 @@ ${contributing}
 
 ${tests}
 
-## License
+## Questions
 
-${license}`;
+Have questions? [Email Me!](mailto: thewillkim@icloud.com)
+
+`;
 
 // TODO: Create a function to initialize app
 function init() {
