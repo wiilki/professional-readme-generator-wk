@@ -1,25 +1,25 @@
-# lksjfklsdj
+# this-is-an-example-project
 
 ## Description
 
-lkskldfj
+This is an example project
 
 ## Installation
 
-lkjskldjfkl
+Follow instructions
 
 ## Usage
 
-lkjklsjdlf
+Follow example
 
 ## Contributing
 
-lkjkljklsdf
+email this guy
 
 ## Tests
 
-lkjlkjklsjdklf
+This is a test
 
 ## License
 
-License 1
+License 4
