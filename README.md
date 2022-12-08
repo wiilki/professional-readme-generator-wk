@@ -34,5 +34,5 @@ This is test #2
 
 ## Questions
 
-Have questions? [Email Me!](mailto: thewillkim@icloud.com)
+Have questions? [Email Me!](mailto:thewillkim@icloud.com)
 

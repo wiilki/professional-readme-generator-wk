@@ -14,46 +14,12 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-const writeToFile = ({title, description, installation, usage, contributing, tests, license}) =>
-    `# ${title}
+function writeToFile(fileName, data) {}
 
-## Description
 
-${description}
 
-## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [Tests](#tests)
 
-## Installation
-
-${installation}
-
-## Usage
-
-${usage}
-
-## License
-
-${license}
-
-## Contributing
-
-${contributing}
-
-## Tests
-
-${tests}
-
-## Questions
-
-Have questions? [Email Me!](mailto: thewillkim@icloud.com)
-
-`;
 
 // TODO: Create a function to initialize app
 function init() {
