@@ -1,8 +1,16 @@
-# this-is-an-example-project
+# test-#1
 
 ## Description
 
-This is an example project
+This is the first test after adding a table of contents
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [Tests](#tests)
 
 ## Installation
 
@@ -10,16 +18,16 @@ Follow instructions
 
 ## Usage
 
-Follow example
+Follow video
 
 ## Contributing
 
-email this guy
+Email someone
 
 ## Tests
 
-This is a test
+This is test number 1
 
 ## License
 
-License 4
+License 1

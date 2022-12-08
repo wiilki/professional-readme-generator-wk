@@ -21,6 +21,14 @@ const writeToFile = ({title, description, installation, usage, contributing, tes
 
 ${description}
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [Tests](#tests)
+
 ## Installation
 
 ${installation}
