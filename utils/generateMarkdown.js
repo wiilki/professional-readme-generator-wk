@@ -3,17 +3,17 @@ const fs = require('fs');
 // Returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (!license || license === 'none') {
+  if (!license || license === 'None') {
     return ``;
   } else {
-    return `![${license}](https://img.shields.io/badge/License-${license}-green.svg)`;
+    return `\n![${license}](https://img.shields.io/badge/License-${license}-green.svg)`;
   };
 }
 
 // Returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (!license || license === 'none') {
+  if (!license || license === 'None') {
     return ``;
   } else {
     if (license === 'Apache_2.0') {
@@ -31,21 +31,19 @@ function renderLicenseLink(license) {
 // Returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (!license || license === 'none') {
+  if (!license || license === 'None') {
     return ``;
   } else {
-    return `\n## Licenses    
-    \n${renderLicenseLink(license)}
-    
-    ## Badges
-    \n${renderLicenseBadge(license)}    `
+    return `\n## License    
+    \n${renderLicenseLink(license)}`
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
+  ${renderLicenseBadge(data.license)}
+  
   ## Description
   
   ${data.description}
