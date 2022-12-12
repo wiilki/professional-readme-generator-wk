@@ -7,13 +7,13 @@ function renderLicenseBadge(license) {
     return ``;
   } else {
     if (license === 'Apache 2.0') {
-      return  `[![${license}](https://img.shields.io/badge/License-Apache_2.0-green.svg)]`;
+      return `\n![License: GPL v3](https://img.shields.io/badge/License-Apache_2.0-green.svg)`;
     };
     if (license === 'GNU GPLv3') {
-      return  `[![${license}](https://img.shields.io/badge/License-GPLv3-blue.svg)]`;
+      return `\n![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
     };
     if (license === 'MIT') {
-      return  `[![${license}](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+      return `\n![License: GPL v3](https://img.shields.io/badge/License-MIT-yellow.svg)`;
     };
   };
 }
@@ -42,10 +42,9 @@ function renderLicenseSection(license) {
   if (!license) {
     return ``;
   } else {
-    return `## Licenses
-    
+    return `## Licenses    
     ${renderLicenseBadge(license)}
-    ${license}`
+    \n${renderLicenseLink(license)}`
   }
 }
 
@@ -85,7 +84,7 @@ function generateMarkdown(data) {
   
   ## Questions
   
-  Have questions? [Email Me!](mailto: thewillkim@icloud.com)`;
+  Have questions? [Email Me!](mailto:${data.email})`;
 }
 
 module.exports = generateMarkdown;

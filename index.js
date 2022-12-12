@@ -13,7 +13,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Enter a description of your project.',
+        message: 'Enter a description of your project:',
     },
     {
         type: 'input',
@@ -33,14 +33,19 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: 'Include any tests for your project.',
+        message: 'Include any tests for your project:',
     },
     {
         type: 'list',
         name: 'license',
-        message: 'Choose a license.',
+        message: 'Choose a license:',
         choices: ['Apache 2.0', 'GNU GPLv3', 'MIT']
     },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email:',
+    }
 ];
 
 // TODO: Create a function to write README file

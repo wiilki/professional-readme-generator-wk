@@ -1,8 +1,8 @@
-# jlksjkld
+# Test Project
 
   ## Description
   
-  joj
+  This is a description of my project
   
   ## Table of Contents
   
@@ -14,25 +14,26 @@
   
   ## Installation
   
-  joijoij
+  Follow instructinos to install
   
   ## Usage
   
-  joijiojoi
+  Watch video before use
   
-  ## Licenses
+  ## Licenses    
     
-    [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-    MIT
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+    
+https://www.gnu.org/licenses/gpl-3.0.txt
   
   ## Contributing
   
-  ojojiojo
+  Email me
   
   ## Tests
   
-  joijiojioj
+  This is a test
   
   ## Questions
   
-  Have questions? [Email Me!](mailto: thewillkim@icloud.com)
+  Have questions? [Email Me!](mailto:test@email.com)
