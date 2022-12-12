@@ -3,17 +3,17 @@ const fs = require('fs');
 // Returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (!license) {
+  if (!license || license === 'none') {
     return ``;
   } else {
-      return `![${license}](https://img.shields.io/badge/License-${license}-green.svg)`;
+    return `![${license}](https://img.shields.io/badge/License-${license}-green.svg)`;
   };
 }
 
 // Returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (!license) {
+  if (!license || license === 'none') {
     return ``;
   } else {
     if (license === 'Apache_2.0') {
@@ -31,7 +31,7 @@ function renderLicenseLink(license) {
 // Returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (!license) {
+  if (!license || license === 'none') {
     return ``;
   } else {
     return `## Licenses    
@@ -63,7 +63,6 @@ function generateMarkdown(data) {
   ## Usage
   
   ${data.usage}
-  
   ${renderLicenseSection(data.license)}
   
   ## Contributing

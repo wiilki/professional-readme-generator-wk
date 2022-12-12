@@ -20,11 +20,6 @@
   
   Watch video before use
   
-  ## Licenses    
-    
-![MIT](https://img.shields.io/badge/License-MIT-green.svg)
-    
-https://www.mit.edu/~amini/LICENSE.md
   
   ## Contributing
   
