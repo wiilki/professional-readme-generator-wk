@@ -20,6 +20,13 @@
   
   Watch video before use
   
+## Licenses    
+    
+https://www.apache.org/licenses/LICENSE-2.0.txt
+    
+    ## Badges
+    
+![Apache_2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)    
   
   ## Contributing
   
