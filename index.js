@@ -39,7 +39,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license.',
-        choices: ['License 1', 'License 2', 'License 3', 'License 4', 'License 5']
+        choices: ['Apache 2.0', 'GNU GPLv3', 'MIT']
     },
 ];
 

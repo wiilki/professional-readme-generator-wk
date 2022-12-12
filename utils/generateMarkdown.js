@@ -1,12 +1,23 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+const fs = require('fs');
+
+// Returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// Returns the license link
+function renderLicenseLink(license) {
+  if (license === 'Apache 2.0') {
+    return `https://www.apache.org/licenses/LICENSE-2.0.txt`
+  }
+  if (license === 'GNU GPLv3') {
+    return `https://www.gnu.org/licenses/gpl-3.0.txt`
+  }
+  if (license === 'MIT') {
+    return `https://www.mit.edu/~amini/LICENSE.md` 
+  }
+}
 
-// TODO: Create a function that returns the license section of README
+// Returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
