@@ -58,9 +58,11 @@ function init() {
 // Function call to initialize app
 init()
     .then(userInput => {
-        // return generateMarkdown(userInput);
-        console.log(generateMarkdown(userInput));
+        return generateMarkdown(userInput);
     })
-     .catch(err => {
+    .then(inputInfo => {
+        writeToFile('README.md', inputInfo);
+    })
+    .catch(err => {
         console.log(err);
     })
