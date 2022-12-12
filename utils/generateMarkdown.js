@@ -6,15 +6,7 @@ function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    if (license === 'Apache 2.0') {
-      return `\n![License: GPL v3](https://img.shields.io/badge/License-Apache_2.0-green.svg)`;
-    };
-    if (license === 'GNU GPLv3') {
-      return `\n![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`;
-    };
-    if (license === 'MIT') {
-      return `\n![License: GPL v3](https://img.shields.io/badge/License-MIT-yellow.svg)`;
-    };
+      return `![${license}](https://img.shields.io/badge/License-${license}-green.svg)`;
   };
 }
 
@@ -24,10 +16,10 @@ function renderLicenseLink(license) {
   if (!license) {
     return ``;
   } else {
-    if (license === 'Apache 2.0') {
+    if (license === 'Apache_2.0') {
       return `https://www.apache.org/licenses/LICENSE-2.0.txt`;
     };
-    if (license === 'GNU GPLv3') {
+    if (license === 'GPLv3') {
       return `https://www.gnu.org/licenses/gpl-3.0.txt`;
     };
     if (license === 'MIT') {
@@ -43,7 +35,7 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `## Licenses    
-    ${renderLicenseBadge(license)}
+    \n${renderLicenseBadge(license)}
     \n${renderLicenseLink(license)}`
   }
 }

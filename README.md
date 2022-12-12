@@ -14,7 +14,7 @@
   
   ## Installation
   
-  Follow instructinos to install
+  Follow instructions to install
   
   ## Usage
   
@@ -22,9 +22,9 @@
   
   ## Licenses    
     
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![MIT](https://img.shields.io/badge/License-MIT-green.svg)
     
-https://www.gnu.org/licenses/gpl-3.0.txt
+https://www.mit.edu/~amini/LICENSE.md
   
   ## Contributing
   
