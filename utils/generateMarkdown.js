@@ -3,7 +3,19 @@ const fs = require('fs');
 // Returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-
+  if (!license) {
+    return ``;
+  } else {
+    if (license === 'Apache 2.0') {
+      return  `[![${license}](https://img.shields.io/badge/License-Apache_2.0-green.svg)]`;
+    };
+    if (license === 'GNU GPLv3') {
+      return  `[![${license}](https://img.shields.io/badge/License-GPLv3-blue.svg)]`;
+    };
+    if (license === 'MIT') {
+      return  `[![${license}](https://img.shields.io/badge/License-MIT-yellow.svg)]`;
+    };
+  };
 }
 
 // Returns the license link
