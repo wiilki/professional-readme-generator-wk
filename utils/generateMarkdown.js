@@ -30,14 +30,14 @@ function renderLicenseLink(license) {
 
 // Returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license, userName) {
+function renderLicenseSection(license) {
   const year = new Date().getFullYear() 
   if (!license || license === 'None') {
     return ``;
   } else {
     return `\n## License 
     
-    Copyright ${year} ${license.userName}
+    Copyright ${year}
 
     Licensed under the ${license} License;
     you may not use this file except in compliance with the License.

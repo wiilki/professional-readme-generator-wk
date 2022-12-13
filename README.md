@@ -1,6 +1,6 @@
 # Test Project
   
-![Apache_2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)
+![GPLv3](https://img.shields.io/badge/License-GPLv3-green.svg)
   
   ## Description
   
@@ -24,13 +24,13 @@
   
 ## License 
     
-    Copyright 2022 undefined
+    Copyright 2022
 
-    Licensed under the Apache_2.0 License;
+    Licensed under the GPLv3 License;
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
-    https://www.apache.org/licenses/LICENSE-2.0.txt
+    https://www.gnu.org/licenses/gpl-3.0.txt
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
