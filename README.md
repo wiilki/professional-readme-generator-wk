@@ -1,10 +1,9 @@
-# Test Project
+# Professional README Generator
   
-![GPLv3](https://img.shields.io/badge/License-GPLv3-green.svg)
   
   ## Description
   
-  This is a description of my project
+  This is a simple README generator. You can quickly and easily create a README file by using this command-line application to generate one. This allows you to devote more time to working on the project.
   
   ## Table of Contents
   
@@ -16,36 +15,21 @@
   
   ## Installation
   
-  Follow instructions to install
+  Download project. Open your terminal. Navigate to project directory. Use command 'NPM install' to install dependencies.
   
   ## Usage
   
-  Watch video before use
+  Run command 'node index.js' to initiate application. Answer each prompt on a single line. README should be created!
   
-## License 
-    
-    Copyright 2022
-
-    Licensed under the GPLv3 License;
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-    https://www.gnu.org/licenses/gpl-3.0.txt
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
   
   ## Contributing
   
-  Email me
+  Message me using the email provided below
   
   ## Tests
   
-  This is a test
+  This README was created using this application
   
   ## Questions
   
-  Have questions? [Email Me!](mailto:test@email.com)
+  Have questions? [Email Me!](mailto:thewillkim@icloud.com)
