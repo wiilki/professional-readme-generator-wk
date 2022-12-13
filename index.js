@@ -43,6 +43,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'userName',
+        message: 'Enter your name:',
+    },
+    {
+        type: 'input',
         name: 'email',
         message: 'Enter your email:',
     }

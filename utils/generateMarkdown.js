@@ -30,12 +30,26 @@ function renderLicenseLink(license) {
 
 // Returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(license, userName) {
+  const year = new Date().getFullYear() 
   if (!license || license === 'None') {
     return ``;
   } else {
-    return `\n## License    
-    \n${renderLicenseLink(license)}`
+    return `\n## License 
+    
+    Copyright ${year} ${license.userName}
+
+    Licensed under the ${license} License;
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    ${renderLicenseLink(license)}
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.`
   }
 }
 
