@@ -1,9 +1,9 @@
-# Team Profile Webpage Generator
+# Professional README Generator
   
   
   ## Description
   
-  This application prompts for employee information for a software engineering team, then generates an HTML webpage that displays a nicely formatted team roster based on user input.
+  This is a simple README generator. You can quickly and easily create a README file by using this command-line application to generate one. This allows you to devote more time to working on the project.
   
   ## Table of Contents
   
@@ -15,20 +15,24 @@
   
   ## Installation
   
-  Download reposityory files and directories to local device. Navigate to application's directory using the command prompt. Enter command 'npm install' to install necessary packages. Enter command 'npm run test' to run tests.
+  Download project. Open your terminal. Navigate to project directory. Use command 'NPM install' to install dependencies.
   
   ## Usage
   
-  Enter command 'node .' to initiate application. First enter manager's information as prompted. Then add engineers and interns information for each employee. Once you're finished entering your employees, select 'Finish building my team'. A new index.HTML file with your team's information should be created in the ./dist/ directory. Open index.HTML to view team page
+  Run command 'node index.js' to initiate application. Answer each prompt on a single line. README should be created!
   
   
   ## Contributing
   
-  
+  Message me using the email provided below
   
   ## Tests
+
+https://user-images.githubusercontent.com/114313171/207465032-09e8171c-8559-49b0-8635-8a35bd085b21.mp4
+
+  https://drive.google.com/file/d/1ebVRW1imu56AY_FSq4Lqzc2nP2L4iyox/view
   
-  
+  This README was created using this application
   
   ## Questions
   
